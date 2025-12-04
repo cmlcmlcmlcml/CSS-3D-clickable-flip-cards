@@ -205,32 +205,15 @@ body {
 		background-color: #4C6BE4;
 		box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
 		text-shadow: none;
-		color: $accent-color;
 	}
 
 	&.return {
 		line-height: 2.4em;
-		color: $accent-color;
-		border-color: $accent-color;
 		text-shadow: 0 0 6px rgba(0, 0, 0, 1);
 		&:hover {
-			background-color: $accent-color;
 			color: #fff;
 			box-shadow: none;
 		}
 	}
-}
-
-::-webkit-scrollbar {
-	width: 5px;
-}
-::-webkit-scrollbar-track {
-	background: #f1f1f1;
-}
-::-webkit-scrollbar-thumb {
-	background: lighten($accent-color, 20%);
-}
-::-webkit-scrollbar-thumb:hover {
-	background: $accent-color;
 }
 
